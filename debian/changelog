@@ -1,3 +1,21 @@
+zfs-linux (0.6.1-1~wheezz~1.gbp77dcea) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @77dcea552de9e54cffe7c0394bcdafc920868057 **
+
+  [ Carlos Alberto Lopez Perez ]
+  * Use $(MAKE) instead of make:
+  * Use dh --with dkms
+  * dh_installinit rules should be inside override_dh_installinit target
+  * Fix lintian warning maintainer-script-without-set-e
+  * Move example for sudo from /etc/sudoers.d/zfs to dh_installexamples
+
+  [ Darik Horn ]
+  * Unprotect debian/examples/etc/sudoers.d/zfs
+  * Add Tag-zfs-0.6.1.patch
+  * Update gbp.conf for Wheezy snapshot builds.
+
+ -- Darik Horn <dajhorn@vanadac.com>  Sun, 31 Mar 2013 15:14:06 -0500
+
 zfs-linux (0.6.1-1~wheezy) wheezy; urgency=low
 
   * Initial release.
