@@ -1,3 +1,9 @@
+zfs-linux (0.6.3-30-d14cfd-jessie+1) UNRELEASED; urgency=medium
+
+  * debian/control.in - build-depend on dh-systemd
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Mon, 02 Mar 2015 23:47:00 -0500
+
 zfs-linux (0.6.3-30-d14cfd-jessie) jessie; urgency=low
 
    * New upstream GIT tag.
